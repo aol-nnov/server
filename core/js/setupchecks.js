@@ -466,7 +466,7 @@
 								'core',
 								'You are accessing your instance over a secure connection, however your instance is generating insecure URLs. This most likely means that you are behind a reverse proxy and the overwrite config variables are not set correctly. Please read <a target="_blank" rel="noreferrer noopener" href="{docLink}">the documentation page about this</a>.',
 								{
-									docLink: data.reverseProxyDocumentation
+									docLink: data.reverseProxyDocs
 								}
 							),
 							type: OC.SetupChecks.MESSAGE_TYPE_WARNING
