@@ -704,7 +704,6 @@ Raw output
 				'isMysqlUsedWithoutUTF8MB4' => $this->isMysqlUsedWithoutUTF8MB4(),
 				'isEnoughTempSpaceAvailableIfS3PrimaryStorageIsUsed' => $this->isEnoughTempSpaceAvailableIfS3PrimaryStorageIsUsed(),
 				'reverseProxyGeneratedURL' => $this->urlGenerator->getAbsoluteURL('index.php'),
-				'reverseProxyDocumentation' => $this->urlGenerator->linkToDocs('admin-reverse-proxy'),
 			]
 		);
 	}
